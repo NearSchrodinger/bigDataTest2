@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "app_function": "funcion_lambda.lambda_handler",
+        "aws_region": "us-east-1",
+        "keep_warm": false,
+        "role_name": "LabRole",
+        "manage_roles": false,
+        "profile_name": "default",
+        "project_name": "bigdatatest2",
+        "runtime": "python3.9",
+        "s3_bucket": "zappaneartest2"
+        "apigateway_enabled": false,
+        "events": [
+            {
+                "function": "funcion_lambda.lambda_handler",
+                "expression": "cron(0 10 * * ? *)"
+            }
+        ]
+    }
+}
