@@ -5,7 +5,6 @@
         "keep_warm": false,
         "role_name": "LabRole",
         "manage_roles": false,
-        "profile_name": "default",
         "project_name": "bigdatatest2",
         "runtime": "python3.9",
         "s3_bucket": "zappaneartest2"
