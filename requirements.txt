@@ -1,6 +1,6 @@
 argcomplete==3.3.0
-boto3==1.34.90
-botocore==1.34.90
+boto3==1.34.91
+botocore==1.34.91
 certifi==2024.2.2
 cfn-flip==1.3.0
 charset-normalizer==3.3.2

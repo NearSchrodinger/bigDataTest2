@@ -33,7 +33,7 @@ def lambda_handler(event, context):
             'ActionOnFailure': 'TERMINATE_CLUSTER',
             'HadoopJarStep': {
                 'Jar': 'command-runner.jar',
-                'Args': ["spark-submit", "--deploy-mode", "cluster", "s3://parcial2script/parcial23.py"]
+                'Args': ["spark-submit", "--deploy-mode", "cluster", "s3://scriptparcial2near/parcialcorte2.py"]
             }
         }],
         JobFlowRole='EMR_EC2_DefaultRole',
